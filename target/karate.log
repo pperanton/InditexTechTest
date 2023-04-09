@@ -1,0 +1,897 @@
+19:35:44.143 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+19:35:44.568 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1680802544563
+19:35:45.857 [main]  DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+19:35:45.864 [chrome_1680802545845]  DEBUG c.i.k.driver.chrome_1680802545845 - command: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=d:\Proyectos\InditexTechTest\target\chrome_1680802545845, --disable-popup-blocking, --remote-allow-origins=*], working dir: target\chrome_1680802545845
+19:35:45.873 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - poll attempt #0 for port to be ready - localhost:9222
+19:35:46.143 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - poll attempt #1 for port to be ready - localhost:9222
+19:35:46.414 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - poll attempt #2 for port to be ready - localhost:9222
+19:35:46.435 [chrome_1680802545845-out]  DEBUG c.i.k.driver.chrome_1680802545845 - 
+19:35:46.435 [chrome_1680802545845-out]  DEBUG c.i.k.driver.chrome_1680802545845 - DevTools listening on ws://127.0.0.1:9222/devtools/browser/618fce0e-95ef-4464-b226-44479224cb12
+19:35:46.701 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - poll attempt #3 for port to be ready - localhost:9222
+19:35:47.248 [main]  DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:35:47.285 [main]  DEBUG com.intuit.karate - response time in milliseconds: 32
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1292
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/26510678F388EF3D82382AF67EA77BF7",
+   "id": "26510678F388EF3D82382AF67EA77BF7",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/26510678F388EF3D82382AF67EA77BF7"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/FF160B0DE80AB5BC5E68242A2A7BACB4",
+   "id": "FF160B0DE80AB5BC5E68242A2A7BACB4",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/FF160B0DE80AB5BC5E68242A2A7BACB4"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/4DEF56F3C323B51B3A10B4CADED9BEDE",
+   "id": "4DEF56F3C323B51B3A10B4CADED9BEDE",
+   "title": "Te damos la bienvenida a Chrome",
+   "type": "page",
+   "url": "chrome://welcome/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/4DEF56F3C323B51B3A10B4CADED9BEDE"
+} ]
+
+
+19:35:47.298 [main]  DEBUG com.intuit.karate.shell.Command - ready to accept http connections after 533 ms - http://localhost:9222/json
+19:35:47.301 [main]  DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222/json
+1 > Host: localhost:9222
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:35:47.305 [main]  DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < Content-Security-Policy: frame-ancestors 'none'
+1 < Content-Length: 1292
+1 < Content-Type: application/json; charset=UTF-8
+[ {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/26510678F388EF3D82382AF67EA77BF7",
+   "id": "26510678F388EF3D82382AF67EA77BF7",
+   "title": "Google Network Speech",
+   "type": "background_page",
+   "url": "chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/26510678F388EF3D82382AF67EA77BF7"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/FF160B0DE80AB5BC5E68242A2A7BACB4",
+   "id": "FF160B0DE80AB5BC5E68242A2A7BACB4",
+   "title": "Google Hangouts",
+   "type": "background_page",
+   "url": "chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/FF160B0DE80AB5BC5E68242A2A7BACB4"
+}, {
+   "description": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:9222/devtools/page/4DEF56F3C323B51B3A10B4CADED9BEDE",
+   "id": "4DEF56F3C323B51B3A10B4CADED9BEDE",
+   "title": "Te damos la bienvenida a Chrome",
+   "type": "page",
+   "url": "chrome://welcome/",
+   "webSocketDebuggerUrl": "ws://localhost:9222/devtools/page/4DEF56F3C323B51B3A10B4CADED9BEDE"
+} ]
+
+
+19:35:47.310 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - root frame id: 4DEF56F3C323B51B3A10B4CADED9BEDE
+19:35:47.736 [nioEventLoopGroup-2-1]  DEBUG c.i.k.http.WebSocketClientHandler - websocket client connected
+19:35:47.738 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":1,"method":"Target.attachToTarget","params":{"targetId":"4DEF56F3C323B51B3A10B4CADED9BEDE","flatten":true}}
+19:35:47.752 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Target.attachedToTarget","params":{"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","targetInfo":{"targetId":"4DEF56F3C323B51B3A10B4CADED9BEDE","type":"page","title":"Te damos la bienvenida a Chrome","url":"chrome://welcome/","attached":true,"canAccessOpener":false,"browserContextId":"1A789E496285A3070F084AE8903073EA"},"waitingForDebugger":false}}
+19:35:47.753 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":1,"result":{"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}}
+19:35:47.755 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":2,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Target.activateTarget","params":{"targetId":"4DEF56F3C323B51B3A10B4CADED9BEDE"}}
+19:35:47.757 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":2,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:47.757 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":3,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Target.setDiscoverTargets","params":{"discover":true}}
+19:35:47.759 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"26510678F388EF3D82382AF67EA77BF7","type":"background_page","title":"Google Network Speech","url":"chrome-extension://neajdppkdcdipfabeoofebfddakdcjhd/_generated_background_page.html","attached":false,"canAccessOpener":false,"browserContextId":"1A789E496285A3070F084AE8903073EA"}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:47.759 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"4DEF56F3C323B51B3A10B4CADED9BEDE","type":"page","title":"Te damos la bienvenida a Chrome","url":"chrome://welcome/","attached":true,"canAccessOpener":false,"browserContextId":"1A789E496285A3070F084AE8903073EA"}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:47.760 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Target.targetCreated","params":{"targetInfo":{"targetId":"FF160B0DE80AB5BC5E68242A2A7BACB4","type":"background_page","title":"Google Hangouts","url":"chrome-extension://nkeimhogjdpnpccoofpliimaahmaaome/background.html","attached":false,"canAccessOpener":false,"browserContextId":"1A789E496285A3070F084AE8903073EA"}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:47.761 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":3,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:47.761 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":4,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Page.enable"}
+19:35:47.763 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":4,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:47.763 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":5,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Runtime.enable"}
+19:35:47.765 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"chrome://welcome","name":"","uniqueId":"783692273732914635.6175321107672050023","auxData":{"isDefault":true,"type":"default","frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE"}}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:47.766 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":5,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:47.766 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":6,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Browser.getWindowForTarget","params":{"targetId":"4DEF56F3C323B51B3A10B4CADED9BEDE"}}
+19:35:47.767 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":6,"result":{"windowId":452914984,"bounds":{"left":10,"top":50,"width":945,"height":1020,"windowState":"normal"}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:47.906 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":7,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Page.navigate","params":{"url":"https:\/\/www.google.com\/"}}
+19:35:48.545 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":7,"result":{"frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE","loaderId":"94BD622E76B7120470F86126995281DB"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.548 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.549 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameStartedLoading","params":{"frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.562 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"4DEF56F3C323B51B3A10B4CADED9BEDE","type":"page","title":"https://www.google.com","url":"https://www.google.com/","attached":true,"canAccessOpener":false,"browserContextId":"1A789E496285A3070F084AE8903073EA"}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.564 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.565 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"4DEF56F3C323B51B3A10B4CADED9BEDE","loaderId":"94BD622E76B7120470F86126995281DB","url":"https://www.google.com/","domainAndRegistry":"google.com","securityOrigin":"https://www.google.com","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.566 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://www.google.com","name":"","uniqueId":"3128218090023766112.57181655832658950","auxData":{"isDefault":true,"type":"default","frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE"}}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.669 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.domContentEventFired","params":{"timestamp":4631.473619},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.817 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":8,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Runtime.evaluate","params":{"expression":"(document.querySelector(\"#L2AGLb\") != null)","returnByValue":true}}
+19:35:48.821 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":8,"result":{"result":{"type":"boolean","value":true}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.826 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":9,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Runtime.evaluate","params":{"expression":"document.querySelector(\"#L2AGLb\").click()","returnByValue":true}}
+19:35:48.834 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":9,"result":{"result":{"type":"undefined"}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.844 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":10,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Runtime.evaluate","params":{"expression":"var e = document.querySelector(\"input[name=q]\"); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}","returnByValue":true}}
+19:35:48.846 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":10,"result":{"result":{"type":"number","value":0,"description":"0"}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.848 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":11,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"a","windowsVirtualKeyCode":97}}
+19:35:48.850 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":11,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.851 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":12,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"a","windowsVirtualKeyCode":97}}
+19:35:48.854 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":12,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.856 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":13,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"a","windowsVirtualKeyCode":97}}
+19:35:48.858 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":13,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.859 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":14,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"u","windowsVirtualKeyCode":117}}
+19:35:48.860 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":14,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.861 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":15,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"u","windowsVirtualKeyCode":117}}
+19:35:48.864 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":15,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.866 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":16,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"u","windowsVirtualKeyCode":117}}
+19:35:48.867 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":16,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.868 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":17,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"t","windowsVirtualKeyCode":116}}
+19:35:48.870 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":17,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.871 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":18,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"t","windowsVirtualKeyCode":116}}
+19:35:48.874 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":18,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.878 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":19,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"t","windowsVirtualKeyCode":116}}
+19:35:48.879 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":19,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.880 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":20,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"o","windowsVirtualKeyCode":111}}
+19:35:48.882 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":20,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.883 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":21,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"o","windowsVirtualKeyCode":111}}
+19:35:48.888 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":21,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.889 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":22,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"o","windowsVirtualKeyCode":111}}
+19:35:48.892 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":22,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.892 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":23,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"m","windowsVirtualKeyCode":109}}
+19:35:48.894 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":23,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.896 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":24,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"m","windowsVirtualKeyCode":109}}
+19:35:48.898 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":24,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.901 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":25,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"m","windowsVirtualKeyCode":109}}
+19:35:48.904 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":25,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.908 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":26,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"a","windowsVirtualKeyCode":97}}
+19:35:48.911 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":26,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.912 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":27,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"a","windowsVirtualKeyCode":97}}
+19:35:48.914 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":27,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.915 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":28,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"a","windowsVirtualKeyCode":97}}
+19:35:48.917 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":28,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.918 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":29,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"t","windowsVirtualKeyCode":116}}
+19:35:48.920 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":29,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.921 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":30,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"t","windowsVirtualKeyCode":116}}
+19:35:48.925 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":30,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.925 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":31,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"t","windowsVirtualKeyCode":116}}
+19:35:48.927 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":31,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.928 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":32,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"i","windowsVirtualKeyCode":105}}
+19:35:48.930 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":32,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.931 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":33,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"i","windowsVirtualKeyCode":105}}
+19:35:48.964 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":33,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.966 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":34,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"i","windowsVirtualKeyCode":105}}
+19:35:48.968 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":34,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.968 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":35,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"z","windowsVirtualKeyCode":122}}
+19:35:48.971 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":35,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.971 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":36,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"z","windowsVirtualKeyCode":122}}
+19:35:48.974 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":36,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.975 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":37,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"z","windowsVirtualKeyCode":122}}
+19:35:48.977 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":37,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.978 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":38,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"a","windowsVirtualKeyCode":97}}
+19:35:48.979 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":38,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.980 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":39,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"a","windowsVirtualKeyCode":97}}
+19:35:48.982 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":39,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.983 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":40,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"a","windowsVirtualKeyCode":97}}
+19:35:48.984 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":40,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.985 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":41,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"c","windowsVirtualKeyCode":99}}
+19:35:48.986 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":41,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.988 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":42,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"c","windowsVirtualKeyCode":99}}
+19:35:48.990 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":42,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.991 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":43,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"c","windowsVirtualKeyCode":99}}
+19:35:48.993 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":43,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.993 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":44,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"i","windowsVirtualKeyCode":105}}
+19:35:48.995 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":44,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.995 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":45,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"i","windowsVirtualKeyCode":105}}
+19:35:48.997 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":45,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:48.998 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":46,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"i","windowsVirtualKeyCode":105}}
+19:35:48.999 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":46,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.000 [main]  WARN  c.i.k.driver.chrome_1680802545845 - unknown character / key code: ?
+19:35:49.000 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":47,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"?"}}
+19:35:49.027 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":47,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.039 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":48,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"n","windowsVirtualKeyCode":110}}
+19:35:49.041 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":48,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.045 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":49,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"n","windowsVirtualKeyCode":110}}
+19:35:49.048 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":49,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.049 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":50,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"n","windowsVirtualKeyCode":110}}
+19:35:49.051 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":50,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.061 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":51,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Runtime.evaluate","params":{"expression":"var e = document.querySelector(\"input[name=q]\"); e.focus(); try { e.selectionStart = e.selectionEnd = e.value.length } catch(x) {}","returnByValue":true}}
+19:35:49.062 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":51,"result":{"result":{"type":"number","value":14,"description":"14"}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.063 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":52,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"rawKeyDown","text":"\r","windowsVirtualKeyCode":13}}
+19:35:49.065 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":52,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.065 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":53,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"char","text":"\r","windowsVirtualKeyCode":13}}
+19:35:49.068 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":53,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.069 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameScheduledNavigation","params":{"frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE","delay":0,"reason":"formSubmissionGet","url":"https://www.google.com/search?q=automatizaci%EF%BF%BDn&btnK=Buscar+con+Google&source=hp&ei=2wEvZPfPKtCskdUPzrORgAw&iflsig=AOEireoAAAAAZC8P6x6EkqTNU2jkxW5yR4vd_F5Nq79a"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.070 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameRequestedNavigation","params":{"frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE","reason":"formSubmissionGet","url":"https://www.google.com/search?q=automatizaci%EF%BF%BDn&btnK=Buscar+con+Google&source=hp&ei=2wEvZPfPKtCskdUPzrORgAw&iflsig=AOEireoAAAAAZC8P6x6EkqTNU2jkxW5yR4vd_F5Nq79a","disposition":"currentTab"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.073 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameClearedScheduledNavigation","params":{"frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.076 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":54,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Input.dispatchKeyEvent","params":{"modifiers":0,"type":"keyUp","text":"\r","windowsVirtualKeyCode":13}}
+19:35:49.078 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":54,"result":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.081 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":55,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Runtime.evaluate","params":{"expression":"document.evaluate(\"\/\/*[contains(normalize-space(text()),'Wikipedia')]\", document, null, 9, null).singleNodeValue.click()","returnByValue":true}}
+19:35:49.537 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.540 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameStartedLoading","params":{"frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.555 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"4DEF56F3C323B51B3A10B4CADED9BEDE","type":"page","title":"https://www.google.com/search?q=automatizaci\ufffdn&btnK=Buscar+con+Google&source=hp&ei=2wEvZPfPKtCskdUPzrORgAw&iflsig=AOEireoAAAAAZC8P6x6EkqTNU2jkxW5yR4vd_F5Nq79a","url":"https://www.google.com/search?q=automatizaci%EF%BF%BDn&btnK=Buscar+con+Google&source=hp&ei=2wEvZPfPKtCskdUPzrORgAw&iflsig=AOEireoAAAAAZC8P6x6EkqTNU2jkxW5yR4vd_F5Nq79a","attached":true,"canAccessOpener":false,"browserContextId":"1A789E496285A3070F084AE8903073EA"}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.560 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.561 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"4DEF56F3C323B51B3A10B4CADED9BEDE","loaderId":"C84A3DF26AA09A017562092DED2FBEFE","url":"https://www.google.com/search?q=automatizaci%EF%BF%BDn&btnK=Buscar+con+Google&source=hp&ei=2wEvZPfPKtCskdUPzrORgAw&iflsig=AOEireoAAAAAZC8P6x6EkqTNU2jkxW5yR4vd_F5Nq79a","domainAndRegistry":"google.com","securityOrigin":"https://www.google.com","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.562 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":2,"origin":"https://www.google.com","name":"","uniqueId":"-8386137257225814998.9069749671339600896","auxData":{"isDefault":true,"type":"default","frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE"}}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.562 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":55,"result":{"result":{"type":"object","subtype":"error","className":"TypeError","description":"TypeError: Cannot read properties of null (reading 'click')\n    at <anonymous>:1:113","objectId":"7644825848804969440.2.1"},"exceptionDetails":{"exceptionId":1,"text":"Uncaught","lineNumber":0,"columnNumber":112,"scriptId":"16","stackTrace":{"callFrames":[{"functionName":"","scriptId":"16","url":"","lineNumber":0,"columnNumber":112}]},"exception":{"type":"object","subtype":"error","className":"TypeError","description":"TypeError: Cannot read properties of null (reading 'click')\n    at <anonymous>:1:113","objectId":"7644825848804969440.2.2"}}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:49.563 [nioEventLoopGroup-2-1]  WARN  c.i.k.driver.chrome_1680802545845 - devtools error: [id: 55, sessionId: 9EC4C90A440E8E0CF0AFFED41F8E2F2A, result: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'click')
+    at <anonymous>:1:113, objectId=7644825848804969440.2.1}]]
+19:35:49.565 [main]  WARN  c.i.k.driver.chrome_1680802545845 - js eval failed once:document.evaluate("//*[contains(normalize-space(text()),'Wikipedia')]", document, null, 9, null).singleNodeValue.click(), error: [type: MAP, value: {type=object, subtype=error, className=TypeError, description=TypeError: Cannot read properties of null (reading 'click')
+    at <anonymous>:1:113, objectId=7644825848804969440.2.1}]
+19:35:50.154 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.domContentEventFired","params":{"timestamp":4632.958489},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:50.348 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"4DEF56F3C323B51B3A10B4CADED9BEDE","type":"page","title":"automatizaci n - Buscar con Google","url":"https://www.google.com/search?q=automatizaci%EF%BF%BDn&btnK=Buscar+con+Google&source=hp&ei=2wEvZPfPKtCskdUPzrORgAw&iflsig=AOEireoAAAAAZC8P6x6EkqTNU2jkxW5yR4vd_F5Nq79a","attached":true,"canAccessOpener":false,"browserContextId":"1A789E496285A3070F084AE8903073EA"}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:50.362 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.navigatedWithinDocument","params":{"frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE","url":"https://www.google.com/search?q=automatizaci%EF%BF%BDn&btnK=Buscar+con+Google&source=hp&ei=2wEvZPfPKtCskdUPzrORgAw&iflsig=AOEireoAAAAAZC8P6x6EkqTNU2jkxW5yR4vd_F5Nq79a"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:51.279 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameAttached","params":{"frameId":"4A8F28EE480D3C865D8E5A28B8004475","parentFrameId":"4DEF56F3C323B51B3A10B4CADED9BEDE","stack":{"callFrames":[{"functionName":"","scriptId":"46","url":"https://www.google.com/xjs/_/js/k=xjs.s.es.l4Tgqc1qplg.O/am=IkAAokE4BbABAKALDgEAAIEAAAAAAFQAwwAQvP8GAABAEDaCGCQASEqAAQAArh8iAAAAwAAAK4CDBRSAAAAAAIg_AHJeADiYsAAAAAAAAAAAELAEweACSQoCQAAAAAAAAABAlUxeryAEAAAe/d=1/ed=1/dg=2/br=1/rs=ACT90oE8GXPliE3d3q_L0x9w5TpBoeP13w/m=attn,cdos,dpf,hsm,jsa,d,csi","lineNumber":638,"columnNumber":473},{"functionName":"g","scriptId":"46","url":"https://www.google.com/xjs/_/js/k=xjs.s.es.l4Tgqc1qplg.O/am=IkAAokE4BbABAKALDgEAAIEAAAAAAFQAwwAQvP8GAABAEDaCGCQASEqAAQAArh8iAAAAwAAAK4CDBRSAAAAAAIg_AHJeADiYsAAAAAAAAAAAELAEweACSQoCQAAAAAAAAABAlUxeryAEAAAe/d=1/ed=1/dg=2/br=1/rs=ACT90oE8GXPliE3d3q_L0x9w5TpBoeP13w/m=attn,cdos,dpf,hsm,jsa,d,csi","lineNumber":638,"columnNumber":168},{"functionName":"BCa","scriptId":"46","url":"https://www.google.com/xjs/_/js/k=xjs.s.es.l4Tgqc1qplg.O/am=IkAAokE4BbABAK ...
+19:35:51.281 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameStartedLoading","params":{"frameId":"4A8F28EE480D3C865D8E5A28B8004475"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:51.286 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"4A8F28EE480D3C865D8E5A28B8004475","parentId":"4DEF56F3C323B51B3A10B4CADED9BEDE","loaderId":"238D87CF90A34E5C695E4FD9745350C2","name":"","url":"about:blank","domainAndRegistry":"","securityOrigin":"://","mimeType":"text/html","adFrameStatus":{"adFrameType":"none","explanations":[]},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:51.286 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":3,"origin":"https://www.google.com","name":"","uniqueId":"1524342222384405792.-275946702334589352","auxData":{"isDefault":true,"type":"default","frameId":"4A8F28EE480D3C865D8E5A28B8004475"}}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:51.286 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"4A8F28EE480D3C865D8E5A28B8004475"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:51.289 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameScheduledNavigation","params":{"frameId":"4A8F28EE480D3C865D8E5A28B8004475","delay":0,"reason":"scriptInitiated","url":"https://www.google.com/uviewer?q=automatizaci%C3%B3n&origin=https%3A%2F%2Fwww.google.com"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:51.290 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameRequestedNavigation","params":{"frameId":"4A8F28EE480D3C865D8E5A28B8004475","reason":"scriptInitiated","url":"https://www.google.com/uviewer?q=automatizaci%C3%B3n&origin=https%3A%2F%2Fwww.google.com","disposition":"currentTab"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:51.290 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameStartedLoading","params":{"frameId":"4A8F28EE480D3C865D8E5A28B8004475"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:51.290 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameClearedScheduledNavigation","params":{"frameId":"4A8F28EE480D3C865D8E5A28B8004475"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:51.503 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Runtime.executionContextDestroyed","params":{"executionContextId":3,"executionContextUniqueId":"1524342222384405792.-275946702334589352"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:51.504 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"4A8F28EE480D3C865D8E5A28B8004475","parentId":"4DEF56F3C323B51B3A10B4CADED9BEDE","loaderId":"4DEE8814FB71BBEF4D2813ED7FFEE961","name":"","url":"https://www.google.com/uviewer?q=automatizaci%C3%B3n&origin=https%3A%2F%2Fwww.google.com","domainAndRegistry":"google.com","securityOrigin":"https://www.google.com","mimeType":"text/html","adFrameStatus":{"adFrameType":"none","explanations":[]},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:51.504 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":4,"origin":"https://www.google.com","name":"","uniqueId":"4948918117983241964.4660102876802992601","auxData":{"isDefault":true,"type":"default","frameId":"4A8F28EE480D3C865D8E5A28B8004475"}}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:51.912 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.navigatedWithinDocument","params":{"frameId":"4A8F28EE480D3C865D8E5A28B8004475","url":"https://www.google.com/uviewer?q=automatizaci%C3%B3n&origin=https%3A%2F%2Fwww.google.com"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.175 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"4A8F28EE480D3C865D8E5A28B8004475"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.186 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.loadEventFired","params":{"timestamp":4634.987656},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.186 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameStoppedLoading","params":{"frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.571 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":56,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Runtime.evaluate","params":{"expression":"document.evaluate(\"\/\/*[contains(normalize-space(text()),'Wikipedia')]\", document, null, 9, null).singleNodeValue.click()","returnByValue":true}}
+19:35:52.580 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameScheduledNavigation","params":{"frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE","delay":0,"reason":"anchorClick","url":"https://es.wikipedia.org/wiki/Automatizaci%C3%B3n"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.580 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameRequestedNavigation","params":{"frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE","reason":"anchorClick","url":"https://es.wikipedia.org/wiki/Automatizaci%C3%B3n","disposition":"currentTab"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.583 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameStartedLoading","params":{"frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.589 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameClearedScheduledNavigation","params":{"frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.589 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":56,"result":{"result":{"type":"undefined"}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.610 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":57,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Runtime.evaluate","params":{"expression":"document.location.href","returnByValue":true}}
+19:35:52.712 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.713 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameStartedLoading","params":{"frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.721 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Target.targetInfoChanged","params":{"targetInfo":{"targetId":"4DEF56F3C323B51B3A10B4CADED9BEDE","type":"page","title":"https://es.wikipedia.org/wiki/Automatizaci\u00f3n","url":"https://es.wikipedia.org/wiki/Automatizaci%C3%B3n","attached":true,"canAccessOpener":false,"browserContextId":"1A789E496285A3070F084AE8903073EA"}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.722 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Runtime.executionContextsCleared","params":{},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.722 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.frameNavigated","params":{"frame":{"id":"4DEF56F3C323B51B3A10B4CADED9BEDE","loaderId":"58EF6E30E299930300857FA51318C606","url":"https://es.wikipedia.org/wiki/Automatizaci%C3%B3n","domainAndRegistry":"wikipedia.org","securityOrigin":"https://es.wikipedia.org","mimeType":"text/html","adFrameStatus":{"adFrameType":"none"},"secureContextType":"Secure","crossOriginIsolatedContextType":"NotIsolated","gatedAPIFeatures":[]},"type":"Navigation"},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.722 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Runtime.executionContextCreated","params":{"context":{"id":1,"origin":"https://es.wikipedia.org","name":"","uniqueId":"-868453091832521269.1313261621429233201","auxData":{"isDefault":true,"type":"default","frameId":"4DEF56F3C323B51B3A10B4CADED9BEDE"}}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.728 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":57,"result":{"result":{"type":"string","value":"https://es.wikipedia.org/wiki/Automatizaci%C3%B3n"}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.741 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":58,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Runtime.evaluate","params":{"expression":"(function(){ var fun = function(e){ var d = window.getComputedStyle(e).display; while(d == 'none'){ e = e.parentElement; d = window.getComputedStyle(e).display } e.scrollIntoView({block: 'center'}) }; var e = document.evaluate(\"\/\/a[normalize-space(text())='Ctesibius']\", document, null, 9, null).singleNodeValue; return fun(e) })()","returnByValue":true}}
+19:35:52.880 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":58,"result":{"result":{"type":"undefined"}},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:52.882 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":59,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Page.captureScreenshot"}
+19:35:53.223 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"method":"Page.domContentEventFired","params":{"timestamp":4636.027943},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:53.368 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":59,"result":{"data":"iVBORw0KGgoAAAANSUhEUgAAA6EAAAOkCAYAAABXljKZAAAAAXNSR0IArs4c6QAAIABJREFUeJzsvU9sG0e27/+d3wwmwf3hbuaBiIBnByIpB8m8lQSNoKefB9M08iLBQADfMUFlEySmSC0M3xe8jUJqM5hFyLY2P8wbwQtR1k0wi7EYKpPB4CdIgWFyML5+hixTqzsJYlLyxH4IbeINkFxcI1nxt+h/1dXV1d1ki5Tk8wEIiKzuqlOnTp2q6jrV+sGzZ886IIgB8ce//RBvvfrjQYtBEIQHdXUOD969jtmhQUvCsodCLAmUm1gc136pq3FcRAUHudHBinbkaWM9vYoza3mMiZJbZaSntjF956i1uTdkA0Fp48Z7f8EfEj/H+oUIAODJp5t4uRrBV7/5GV4asHTEMSVEH0J9+ujx7bff9pzHj0KQgyAIgjjhjOWuixcrA2UUi+UMoqk4SsZP8zRR8UcEs2v5QQtBHAkieGvxNP7w9l/wwjX9p9dO0wKUOAJoDxpLUKDeIb9+0vgB7YQSg4R2QgmCIAiCIAji+BDGTuj/FYIcBEEQBEEQBEEQBOELWoQSBEEQBEEQBEEQfYMWoQRBEARBEARBEETfoEUoQRAEQRAEQRAE0TdoEUoQBEEQBEEQBEGEwjvvvON5DS1CCYIgCIIgCIIgiJ4xFqBeC1FahBIEQRAEQRAEQRA9wS88ZQtRWoQSBEEQBEEQBEEQXeO24HT7/UeHKQxBHHXalTlMLADqneuYHRq0NARBDJY9FGJJlOYrOMiNDlqYYwv5VYIgjhvkt3rno48+CnQ97YQSzzFt3Np0Opx2ZQ7RdBltANgtWn/zaR7U1Tii6l74YvfEHgqxOay3wssxiE5OBK0y0iHpMCwbOZq2FiZtrKfjKOwecjG7W8IFaLsyx+h3D4VYH2Rxo1VGOhZH1O0Tqh141FXYF8R+9Wgz4DbtAbbv980PhOgD5QRrF3s/JQ6fYPMJdq5w9OYNb ...
+19:35:53.525 [main]  DEBUG c.i.k.driver.chrome_1680802545845 - >> {"id":60,"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A","method":"Target.closeTarget","params":{"targetId":"4DEF56F3C323B51B3A10B4CADED9BEDE"}}
+19:35:53.526 [nioEventLoopGroup-2-1]  DEBUG c.i.k.driver.chrome_1680802545845 - << {"id":60,"result":{"success":true},"sessionId":"9EC4C90A440E8E0CF0AFFED41F8E2F2A"}
+19:35:53.529 [nioEventLoopGroup-2-1]  DEBUG c.i.k.http.WebSocketClientHandler - websocket client disconnected
+19:35:53.530 [main]  DEBUG com.intuit.karate.shell.Command - closing command: chrome_1680802545845
+19:35:53.691 [chrome_1680802545845]  WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --remote-allow-origins=*, --no-first-run, --user-data-dir=d:\Proyectos\InditexTechTest\target\chrome_1680802545845, --disable-popup-blocking, --remote-allow-origins=*] working dir: target\chrome_1680802545845
+19:35:54.311 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/InditexTechTest/tests/ejercicio2_UIAutomation.feature
+19:38:10.729 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+19:38:11.404 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1680802691394
+19:38:12.954 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=available
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:38:13.777 [main]  DEBUG com.intuit.karate - response time in milliseconds: 815
+1 < 200
+1 < Date: Thu, 06 Apr 2023 17:33:32 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":9223372036854775163,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775168,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775169,"category":{"id":0,"name":"Hi"},"name":"doggie3","photoUrls":["string"],"tags":[{"id":0,"name":"tag1"}],"status":"available"},{"id":9223372036854775170,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775171,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":629,"category":{"id":185,"name":"quantify"},"name":"capacitor","photoUrls":[],"tags":[{"id":155,"name":"digital"}],"status":"available"},{"id":9223372036854775183,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775184,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775185,"category":{"id":0,"name":"Hi"},"name":"doggie3","photoUrls":["string"],"tags":[{"id":0,"name":"tag1"}],"status":"available"},{"id":99996,"name":"doggie_by_ms","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775189,"category":{"id":0,"name":"Hi"},"name":"doggie3","photoUrls":["string"],"tags":[{"id":0,"name":"tag1"}],"status":"available"},{"id":9223372036854775197,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775198,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775210,"category":{"id":0,"name":"Hi"},"name":"doggie3","photoUrls":["string"],"tags":[{"id":0,"name":"tag1"}],"status":"available"},{"id":9222968140497180179,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775211,"category":{"id":0,"name":"puppy"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"Charlie"}],"status":"available"},{"id":9223372036854775214,"name":"siyaan","photoUrls":[],"tags":[],"status":"available"},{"id":137,"category":{"id":619,"name":"override"},"name":"protocol","photoUrls":[],"tags":[{"id":638,"name":"mobile"}],"status":"available"},{"id":9223372036854775225,"category":{"id":0,"name":"Hil"},"name":"doggie3","photoUrls":["string"],"tags":[{"id":0,"name":"tag1"}],"status":"available"},{"id":120,"category":{"id":784,"name":"calculate"},"name":"coolTerrain","photoUrls":[],"tags":[{"id":829,"name":"wireless"}],"status":"available"},{"id":9223372036854775231,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775233,"category":{"id":0,"name":"Hil"},"name":"doggie3","photoUrls":["string"],"tags":[{"id":0,"name":"tag1"}],"status":"available"},{"id":9223372036854775234,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775241,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775243,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":910,"category":{"id":876,"name":"reboot"},"name":"hard drive","photoUrls":[],"tags":[{"id":941,"name":"bluetooth"}],"status":"available"},{"id":353,"category":{"id":335,"name":"connect"},"name":"transmitter","photoUrls":[],"tags":[{"id":63,"name":"solid state"}],"status":"available"},{"id":484,"category":{"id":949,"name":"back up"},"name":"feed","photoUrls":[],"tags":[{"id":297,"name":"bluetooth"}],"status":"available"},{"id":9223372036854775262,"category":{"id":0,"name":"A"},"name":"Guru","photoUrls":["http://example.com"],"tags":[{"id":0,"name":"A"}],"status":"available"},{"id":9223372036854775263,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775264,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775265,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775266,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775267,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775268,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775269,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775270,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775271,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775272,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775273,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775274,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775275,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775276,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775277,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775278,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775279,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775280,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775281,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775282,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775283,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775284,"category":{"id":0,"name":"A"},"name":"Guru","photoUrls":["http://example.com"],"tags":[{"id":0,"name":"A"}],"status":"available"},{"id":9223372036854775285,"category":{"id":0,"name":"A"},"name":"Guru","photoUrls":["http://example.com"],"tags":[{"id":0,"name":"A"}],"status":"available"},{"id":9223372036854775288,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775290,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775291,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775293,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775301,"category":{"id":0,"name":"Hi"},"name":"doggie3","photoUrls":["string"],"tags":[{"id":0,"name":"tag1"}],"status":"available"},{"id":9223372036854775335,"category":{"id":0,"name":"Hi"},"name":"doggie3","photoUrls":["string"],"tags":[{"id":0,"name":"tag1"}],"status":"available"},{"id":9223372036854775338,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775339,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775340,"category":{"id":0,"name":"Hi"},"name":"doggie3","photoUrls":["string"],"tags":[{"id":0,"name":"tag1"}],"status":"available"},{"id":246497834596,"category":{"id":56,"name":"\uD80D\uDF64\uDBD8\uDD76\uDBD3\uDF62\uD8CD\uDC69"},"name":"lWdLuWvlDFIYGePCu0w6J6cWmVvWawHX5WWQWbwzb2e3tMMQPxpq6wEAMZW8hvUIaExnWRt5-frA1AMLFFea_cxIV1593XbbCF0QOP.-merf02xj7Wkz4txKM7jWC5DeA9sigbqnmt6YtXF20egELZPoqG","photoUrls":[""],"tags":[{"id":0,"name":""},{"id":0,"name":""},{"id":0,"name":""}],"status":"available"},{"id":9223372036854775354,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775355,"category":{"id":0,"name":"Hi"},"name":"doggie3","photoUrls":["string"],"tags":[{"id":0,"name":"tag1"}],"status":"available"},{"id":9223372036854775356,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775366,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775375,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775381,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775384,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775391,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775392,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775398,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775399,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":67,"category":{"id":67,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":67,"name":"string"}],"status":"available"},{"id":1245,"category":{"id":1245,"name":"xyz"},"name":"xyz","photoUrls":["test"],"tags":[],"status":"available"},{"id":9223372036854775429,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775430,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775431,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775432,"category":{"id":0,"name":""},"name":"Barsik","photoUrls":["http://starletpet.com/images/photos/200/206/starlet-pet-kristal-2.jpg"],"tags":[{"id":60160466,"name":"fluffy"}],"status":"available"},{"id":9223372036854775433,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775438,"category":{"id":0,"name":""},"name":"","photoUrls":[""],"tags":[{"id":60160466,"name":"fluffy"}],"status":"available"},{"id":36680,"category":{"id":1,"name":"???? ??? ??????? tierische Güte  s?b?nni minnu t? sariya k?n?"},"name":"w?D5\n{?  n","photoUrls":[" W?:?<o6Wq?y? \n?%N&0Lv?_???N{? ?C??D6:?\"??.??(?Y?W"],"tags":[{"id":1,"name":"string1"}],"status":"available"},{"id":9223372036854775456,"category":{"id":1,"name":"categoryname"},"name":"w?D5\n{?  n","photoUrls":[" W?:?<o6Wq?y? \n?%N&0Lv?_???N{? ?C??D6:?\"??.??(?Y?W"],"tags":[{"id":1,"name":"string1"}],"status":"available"},{"id":9223372036854775457,"category":{"id":1,"name":"categoryname"},"name":"w?D5\n{?  n","photoUrls":[" W?:?<o6Wq?y? \n?%N&0Lv?_???N{? ?C??D6:?\"??.??(?Y?W"],"tags":[{"id":1,"name":"string1"}],"status":"available"},{"id":12345,"category":{"id":0,"name":"string"},"name":"?????","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775466,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":83475632489563456,"category":{"id":229,"name":"bypass"},"name":"system","photoUrls":[],"tags":[{"id":251,"name":"redundant"}],"status":"available"},{"id":9223372036854775473,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775484,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775488,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":82,"category":{"id":82,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":82,"name":"string"}],"status":"available"},{"id":576,"category":{"id":948,"name":"hack"},"name":"difhlghajghljkfsdghlsfdljgkdljkfsghjlsdfgjklhjksfdghjslhdkfglkdsuygewvbijgkfhglsjgkdfjhsdkgjklsdlhfghlsdfgkjhsdjfgljksdhjkghjsdfhgkjsdghjdsfngmsdfgnmfdsg,msdbfngbnfsdg,bsmdfgbmsdbfmgnmb,sdfgsdmbf,gbmn,dfsgm,bsdfnmgbmn,sdfgbsdfbngbmns,dfgjiheirlhj","photoUrls":[],"tags":[{"id":336,"name":"optical"}],"status":"available"},{"id":9223372036854775501,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":333,"category":{"id":0,"name":"Doggy"},"name":"Doggy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775507,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775525,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775526,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9,"category":{"id":9,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":9,"name":"string"}],"status":"available"},{"id":9223372036854775541,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775542,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775548,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775549,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775557,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775562,"category":{"id":0,"name":"Lucki"},"name":"Dog","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775579,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775580,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775581,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775582,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775591,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775595,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775607,"category":{"id":0,"name":"puppy"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"Charlie"}],"status":"available"},{"id":9223372036854775610,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775611,"name":"siyaan","photoUrls":[],"tags":[],"status":"available"},{"id":9223372036854775618,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775621,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775622,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775623,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775633,"category":{"id":49287248,"name":"cats"},"name":"Barsik","photoUrls":["http://starletpet.com/images/photos/200/206/starlet-pet-kristal-2.jpg"],"tags":[{"id":60160466,"name":"fluffy"}],"status":"available"},{"id":9223372036854775634,"category":{"id":49287248,"name":"cats"},"name":"Barsik","photoUrls":["http://starletpet.com/images/photos/200/206/starlet-pet-kristal-2.jpg"],"tags":[{"id":60160466,"name":"fluffy"}],"status":"available"},{"id":9223372036854775635,"category":{"id":49287248,"name":"cats"},"name":"Barsik","photoUrls":["http://starletpet.com/images/photos/200/206/starlet-pet-kristal-2.jpg"],"tags":[{"id":60160466,"name":"fluffy"}],"status":"available"},{"id":9223372036854775636,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775643,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775644,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775645,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775646,"category":{"id":0,"name":"string"},"name":"test","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775651,"category":{"id":731102,"name":"Categ:GYDHOmPq3Jh7"},"name":"Name:GYDHOmPq3Jh7","photoUrls":["url1","url2","url3"],"tags":[{"id":731102,"name":"Tag1:GYDHOmPq3Jh7"}],"status":"available"},{"id":9223372036854775652,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775700,"category":{"id":0,"name":"Oscar"},"name":"cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775713,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775715,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775717,"name":"siyaan","photoUrls":[],"tags":[],"status":"available"},{"id":15555,"category":{"id":0,"name":"puppy"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"Charlie"}],"status":"available"},{"id":7575,"category":{"id":2023,"name":"test data"},"name":"doggie","photoUrls":["test data"],"tags":[{"id":2023,"name":"test data"}],"status":"available"},{"id":2023,"category":{"id":2023,"name":"test data"},"name":"doggie","photoUrls":["test data"],"tags":[{"id":2023,"name":"test data"}],"status":"available"},{"id":2129,"category":{"id":1,"name":"Doggi_Style"},"name":"CatTest","photoUrls":["https://petstore.swagger.io/v2/pet.png"],"tags":[{"id":1,"name":"tag1"}],"status":"available"},{"id":46456,"category":{"id":49287248,"name":"cats"},"name":"Barsik","photoUrls":["http://starletpet.com/images/photos/200/206/starlet-pet-kristal-2.jpg"],"tags":[{"id":60160466,"name":"fluffy"}],"status":"available"},{"id":76867,"category":{"id":0,"name":"cat"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":4,"category":{"id":4,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":4,"name":"string"}],"status":"available"},{"id":420,"category":{"id":42,"name":"Chihuahua"},"name":"PasBre","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":10009,"category":{"id":0,"name":"string"},"name":"Mauglis","photoUrls":["string"],"tags":[{"id":99,"name":"string"}],"status":"available"},{"id":1000119,"category":{"id":0,"name":"string"},"name":"Mauglis","photoUrls":["string"],"tags":[{"id":99,"name":"string"}],"status":"available"},{"id":9223372036851000000,"category":{"id":0,"name":"string"},"name":"black","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":17256,"category":{"id":1,"name":"categoryname"},"name":"92t;A???~y","photoUrls":["+?w ^ ?*??c'?????>?s`Qb?=?A|O?y%?A???,?(??, ?'????"],"tags":[{"id":1,"name":"string1"}],"status":"available"},{"id":10111,"category":{"id":0,"name":"string"},"name":"Mauglis","photoUrls":["string"],"tags":[{"id":99,"name":"string"}],"status":"available"},{"id":99682,"category":{"id":1,"name":"categoryname"},"name":"e ? ??=? j","photoUrls":["?:???9)$f ?u??Cw?/? ?X?\"I+????K{tdmMf&?3!t$_?+????"],"tags":[{"id":1,"name":"string1"}],"status":"available"},{"id":23481,"category":{"id":1,"name":"categoryname"},"name":"?[y3?<_C?O","photoUrls":["w? Bq?Bu{?(?:J?+oY?a@Anv C^?t?% ? -?HR[\n?  AN?Qzlj"],"tags":[{"id":1,"name":"string1"}],"status":"available"},{"id":4566,"category":{"id":1,"name":"categoryname"},"name":"\\?ht???Nx ","photoUrls":["??O?g? ???_? c?o?Y?Z~?R?fx -??| }xY:&+y?Qg?_S  ???"],"tags":[{"id":1,"name":"string1"}],"status":"available"},{"id":67673,"category":{"id":1,"name":"categoryname"},"name":"&R??1?pO? ","photoUrls":["f??2&?w@Z?z?,G!?=d?=??W?i?JtQp??3^)?6??0yB?r@csJ? "],"tags":[{"id":1,"name":"string1"}],"status":"available"},{"id":23786,"category":{"id":1,"name":"categoryname"},"name":"cZ?R P1?Du","photoUrls":["H?? ?d|?b?C/-89Aa ~R??li??^B:3??> ge?Tk[Qi?? Z\n@P?"],"tags":[{"id":1,"name":"string1"}],"status":"available"},{"id":1111,"name":"arthur weasley","photoUrls":[],"tags":[],"status":"available"},{"id":11074,"category":{"id":1,"name":"categoryname"},"name":"}fy? ,??% ","photoUrls":["&4?dN???D  5??M%??EG?&? )?GV syy?/ySb_ _c g^ ??+\\L"],"tags":[{"id":1,"name":"string1"}],"status":"available"},{"id":71365,"category":{"id":1,"name":"categoryname"},"name":"%Lfh?)`L] ","photoUrls":["? >)?Z ?+^cjW??v???og(\\?p? ?b??L?? ?)? ?Ls b5 Um?\n"],"tags":[{"id":1,"name":"string1"}],"status":"available"},{"id":112233,"category":{"id":30,"name":"Eq-dog"},"name":"Postman","photoUrls":["URLLink"],"tags":[{"id":10,"name":"Doberman"}],"status":"available"},{"id":8611,"category":{"id":1,"name":"categoryname"},"name":"d]?ZaQ |? ","photoUrls":["?A?NK???RI?? @l8l?N?e??a _?  ?Y?? ?v E h?B?Y(?~>! "],"tags":[{"id":1,"name":"string1"}],"status":"available"},{"id":18,"category":{"id":18,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":18,"name":"string"}],"status":"available"},{"id":8677,"category":{"id":0,"name":"Kat?s"},"name":"KetZis","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":538,"category":{"id":2023,"name":"test data"},"name":"doggie","photoUrls":["test data"],"tags":[{"id":2023,"name":"test data"}],"status":"available"},{"id":984536081,"name":"sheree.legros","photoUrls":[],"tags":[],"status":"available"},{"id":9223372036854775725,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775726,"category":{"id":555,"name":"MY DOGGY NOW"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775727,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775742,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775745,"category":{"id":0,"name":"string"},"name":"Puff","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775747,"category":{"id":0,"name":"cat"},"name":"bars","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775754,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775769,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775770,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775779,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775780,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775785,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775790,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775805,"category":{"id":0,"name":"string"},"name":"fish","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854775806,"category":{"id":49287248,"name":"cats"},"name":"Barsik","photoUrls":["http://starletpet.com/images/photos/200/206/starlet-pet-kristal-2.jpg"],"tags":[{"id":60160466,"name":"fluffy"}],"status":"available"},{"id":6,"category":{"id":7,"name":"Chicken"},"name":"Losya","photoUrls":["https://3dnews.ru/assets/external/illustrations/2019/01/03/980584/shutterstock_554749171.jpg"],"tags":[{"id":7,"name":"wow"}],"status":"available"},{"id":7,"category":{"id":7,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":7,"name":"string"}],"status":"available"},{"id":7777777777777777777,"category":{"id":49287248,"name":"cats"},"name":"Barsik","photoUrls":["http://starletpet.com/images/photos/200/206/starlet-pet-kristal-2.jpg"],"tags":[{"id":60160466,"name":"fluffy"}],"status":"available"},{"id":3114,"category":{"id":3114,"name":"string"},"name":"doggie","photoUrls":["abc","def"],"tags":[{"id":0,"name":"test0"},{"id":1,"name":"test1"}],"status":"available"},{"id":26790,"category":{"id":0,"name":"string"},"name":"doggie789","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":54,"category":{"id":54,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":54,"name":"string"}],"status":"available"},{"id":2323,"category":{"id":0,"name":"string"},"name":"dog","photoUrls":["string"],"tags":[{"id":0,"name":"tomy"}],"status":"available"},{"id":12353,"category":{"id":12353,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":888,"category":{"id":0,"name":"string"},"name":"retest","photoUrls":["string"],"tags":[{"id":6,"name":"string"},{"id":7,"name":"string2"},{"id":8,"name":"string3"},{"id":9}],"status":"available"},{"id":777666444,"category":{"id":333,"name":"cats"},"name":"Barsik","photoUrls":["http://starletpet.com/images/photos/200/206/starlet-pet-kristal-2.jpg"],"tags":[{"id":0,"name":"fluffy"}],"status":"available"},{"id":92258281,"category":{"id":49287248,"name":"cats"},"name":"Barsik","photoUrls":[""],"tags":[{"id":60160466,"name":"fluffy"}],"status":"available"},{"id":77778,"category":{"id":49287248,"name":"kitty"},"name":"Barsik","photoUrls":["http://starletpet.com/images/photos/200/206/starlet-pet-kristal-2.jpg"],"tags":[{"id":60160466,"name":"fluffy"}],"status":"available"},{"id":3595,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":6160,"category":{"id":1366825701,"name":"automation"},"name":"hello kity","photoUrls":["foo.bar.com/1","foo.bar.com/2"],"tags":[{"id":332,"name":"tagss"}],"status":"available"},{"id":8577,"category":{"id":10,"name":"mammal"},"name":"Kropcia","photoUrls":["n/a"],"tags":[{"id":1,"name":"Kropcia_dog"}],"status":"available"},{"id":37849,"name":"Tom555","photoUrls":["https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg"],"tags":[],"status":"available"},{"id":9222968140491042131,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":682,"category":{"id":682,"name":"Xo6oF"},"photoUrls":[],"tags":[],"status":"available"},{"id":7955,"name":"Suwini_1049_updated","photoUrls":[],"tags":[],"status":"available"},{"id":123451,"category":{"id":123,"name":"abcd"},"name":"Sheru","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":23323,"category":{"id":0,"name":"efsfsf"},"name":"fvvxfvv","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":2345678,"category":{"id":0,"name":"Cat"},"name":"Duman","photoUrls":["string"],"tags":[{"id":0,"name":"My lovely cat"}],"status":"available"},{"id":1673,"name":"Suwini_1049_updated","photoUrls":[],"tags":[],"status":"available"},{"id":111,"category":{"id":0,"name":"dickey"},"name":"doggie","photoUrls":["string"],"tags":[{"id":100,"name":"bowman"}],"status":"available"},{"id":108,"category":{"id":0,"name":"german"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":12121,"category":{"id":0,"name":"string"},"name":"TestPetName","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":123456,"category":{"id":0,"name":"string"},"name":"doggieMogi","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":28,"category":{"id":28,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":28,"name":"string"}],"status":"available"},{"id":38,"category":{"id":38,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":38,"name":"string"}],"status":"available"},{"id":26,"category":{"id":26,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":26,"name":"string"}],"status":"available"},{"id":37,"category":{"id":37,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":37,"name":"string"}],"status":"available"},{"id":33,"category":{"id":33,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":33,"name":"string"}],"status":"available"},{"id":42,"category":{"id":42,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":42,"name":"string"}],"status":"available"},{"id":23,"category":{"id":23,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":23,"name":"string"}],"status":"available"},{"id":30,"category":{"id":30,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":30,"name":"string"}],"status":"available"},{"id":48,"category":{"id":48,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":48,"name":"string"}],"status":"available"},{"id":35,"category":{"id":35,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":35,"name":"string"}],"status":"available"},{"id":49,"category":{"id":49,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":49,"name":"string"}],"status":"available"},{"id":27,"category":{"id":27,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":27,"name":"string"}],"status":"available"},{"id":43,"category":{"id":43,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":43,"name":"string"}],"status":"available"},{"id":61,"category":{"id":61,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":61,"name":"string"}],"status":"available"},{"id":55,"category":{"id":0,"name":"string"},"name":"gingergen","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":52,"category":{"id":52,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":52,"name":"string"}],"status":"available"},{"id":58,"category":{"id":58,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":58,"name":"string"}],"status":"available"},{"id":62,"category":{"id":62,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":62,"name":"string"}],"status":"available"},{"id":16,"category":{"id":16,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":16,"name":"string"}],"status":"available"},{"id":60,"category":{"id":60,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":60,"name":"string"}],"status":"available"},{"id":56,"category":{"id":56,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":56,"name":"string"}],"status":"available"},{"id":64,"category":{"id":64,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":64,"name":"string"}],"status":"available"},{"id":65,"category":{"id":65,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":65,"name":"string"}],"status":"available"},{"id":71,"category":{"id":71,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":71,"name":"string"}],"status":"available"},{"id":72,"category":{"id":72,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":72,"name":"string"}],"status":"available"},{"id":66,"category":{"id":66,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":66,"name":"string"}],"status":"available"},{"id":74,"category":{"id":74,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":74,"name":"string"}],"status":"available"},{"id":81,"category":{"id":81,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":81,"name":"string"}],"status":"available"},{"id":83,"category":{"id":83,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":83,"name":"string"}],"status":"available"},{"id":80,"category":{"id":80,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":80,"name":"string"}],"status":"available"},{"id":85,"category":{"id":85,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":85,"name":"string"}],"status":"available"},{"id":79,"category":{"id":79,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":79,"name":"string"}],"status":"available"},{"id":78,"category":{"id":78,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":78,"name":"string"}],"status":"available"},{"id":89,"category":{"id":89,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":89,"name":"string"}],"status":"available"},{"id":86,"category":{"id":86,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":86,"name":"string"}],"status":"available"},{"id":84,"category":{"id":84,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":84,"name":"string"}],"status":"available"},{"id":92,"category":{"id":92,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":92,"name":"string"}],"status":"available"},{"id":94,"category":{"id":94,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":94,"name":"string"}],"status":"available"},{"id":93,"category":{"id":93,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":93,"name":"string"}],"status":"available"},{"id":90,"category":{"id":90,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":90,"name":"string"}],"status":"available"},{"id":88,"category":{"id":88,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":88,"name":"string"}],"status":"available"},{"id":87,"category":{"id":87,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":87,"name":"string"}],"status":"available"},{"id":91,"category":{"id":91,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":91,"name":"string"}],"status":"available"},{"id":95,"category":{"id":95,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":95,"name":"string"}],"status":"available"},{"id":98,"category":{"id":98,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":98,"name":"string"}],"status":"available"},{"id":96,"category":{"id":96,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":96,"name":"string"}],"status":"available"},{"id":99,"category":{"id":99,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":99,"name":"string"}],"status":"available"},{"id":97,"category":{"id":97,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":97,"name":"string"}],"status":"available"},{"id":24,"category":{"id":24,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":24,"name":"string"}],"status":"available"},{"id":19,"category":{"id":19,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":19,"name":"string"}],"status":"available"},{"id":31,"category":{"id":31,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":31,"name":"string"}],"status":"available"},{"id":29,"category":{"id":29,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":29,"name":"string"}],"status":"available"},{"id":46,"category":{"id":46,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":46,"name":"string"}],"status":"available"},{"id":12,"category":{"id":1,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":1,"name":"string"}],"status":"available"},{"id":73,"category":{"id":73,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":73,"name":"string"}],"status":"available"},{"id":20,"category":{"id":1,"name":"dog_category"},"name":"dogname1","photoUrls":["string"],"tags":[{"id":1,"name":"dogname1"}],"status":"available"},{"id":70,"category":{"id":70,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":70,"name":"string"}],"status":"available"},{"id":21,"category":{"id":22,"name":"22"},"name":"22","photoUrls":["https://petstore.swagger.io/v2/pet.png"],"tags":[{"id":22,"name":"22"}],"status":"available"},{"id":76,"category":{"id":76,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":76,"name":"string"}],"status":"available"},{"id":41,"category":{"id":41,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":41,"name":"string"}],"status":"available"},{"id":36,"category":{"id":36,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":36,"name":"string"}],"status":"available"},{"id":14,"category":{"id":14,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":14,"name":"string"}],"status":"available"},{"id":25,"category":{"id":0,"name":"string"},"name":"buba","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":45,"category":{"id":45,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":45,"name":"string"}],"status":"available"},{"id":47,"category":{"id":47,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":47,"name":"string"}],"status":"available"},{"id":34,"category":{"id":34,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":34,"name":"string"}],"status":"available"},{"id":69,"category":{"id":69,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":69,"name":"string"}],"status":"available"},{"id":40,"category":{"id":40,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":40,"name":"string"}],"status":"available"},{"id":44,"category":{"id":44,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":44,"name":"string"}],"status":"available"},{"id":9260,"category":{"id":10,"name":"mammal"},"name":"Kropcia","photoUrls":["n/a"],"tags":[{"id":1,"name":"Kropcia_mammal"},{"id":2,"name":"Kropcia_dog"}],"status":"available"},{"id":7088,"category":{"id":10,"name":"mammal"},"name":"Kropcia","photoUrls":["n/a"],"tags":[{"id":1,"name":"Kropcia_mammal"},{"id":2,"name":"Kropcia_dog"}],"status":"available"},{"id":5901,"category":{"id":10,"name":"mammal"},"name":"Kropcia","photoUrls":["n/a"],"tags":[{"id":1,"name":"Kropcia_mammal"},{"id":2,"name":"Kropcia_dog"}],"status":"available"},{"id":102,"category":{"id":100,"name":"Dog"},"name":"Oddi","photoUrls":["https://s0.rbk.ru/v6_top_pics/resized/600xH/media/img/7/19/756752350085197.webp"],"tags":[{"id":101,"name":"Pug"}],"status":"available"},{"id":222,"name":"tex","photoUrls":[],"tags":[{"id":21,"name":"tex"}],"status":"available"},{"id":23780,"category":{"id":0,"name":"string"},"name":"dog","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":128,"category":{"id":7,"name":"Chicken"},"name":"Losya","photoUrls":["https://3dnews.ru/assets/external/illustrations/2019/01/03/980584/shutterstock_554749171.jpg"],"tags":[{"id":7,"name":"wow"}],"status":"available"},{"id":201,"category":{"id":2,"name":"Špunka"},"name":"šeškiukai","photoUrls":["https://www.google.com/imgres?imgurl=https%3A%2F%2Flsveikata.lt%2Fupload%2Farticles_images%2F14293%2Fdef%2Fseskas.jpg&tbnid=YTtssLq6Dgm4OM&vet=12ahUKEwi1orjtp5X-AhUHsSoKHVwVDIYQMygeegUIARCBAg..i&imgrefurl=https%3A%2F%2Flsveikata.lt%2Fsveika-seima%2Fseskas-namuose-linksmybes-ar-pragaistis-14293&docid=pdl_4fIuB6EutM&w=1000&h=750&q=%C5%A1e%C5%A1kiukai&ved=2ahUKEwi1orjtp5X-AhUHsSoKHVwVDIYQMygeegUIARCBAg"],"tags":[{"id":2,"name":"Špunka"}],"status":"available"},{"id":1234,"category":{"id":1234,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":1234,"name":"string"}],"status":"available"},{"id":965,"category":{"id":7,"name":"Animal"},"name":"lunita","photoUrls":["https://petstore.swagger.io/v2/pet/964/uploadImage"],"tags":[{"id":4,"name":"perro"}],"status":"available"},{"id":966,"category":{"id":7,"name":"Animal"},"name":"payaso","photoUrls":["https://petstore.swagger.io/v2/pet/964/uploadImage"],"tags":[{"id":4,"name":"perro"}],"status":"available"},{"id":771,"category":{"id":801,"name":"Abelardo"},"name":"Zane","photoUrls":["https://kailee.biz"],"tags":[{"id":850,"name":"cyan"}],"status":"available"},{"id":232,"category":{"id":11,"name":"Varan"},"name":"Dradon","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":851,"category":{"id":140,"name":"Levi"},"name":"Tracey","photoUrls":["http://axel.name"],"tags":[{"id":635,"name":"black"}],"status":"available"},{"id":582,"category":{"id":814,"name":"Presley"},"name":"Nicola","photoUrls":["https://otilia.name"],"tags":[{"id":688,"name":"cyan"}],"status":"available"},{"id":174,"category":{"id":89,"name":"Justus"},"name":"Petrushka","photoUrls":["https://allison.name"],"tags":[{"id":860,"name":"lavender"}],"status":"available"},{"id":606,"category":{"id":264,"name":"Janis"},"name":"Petrushka","photoUrls":["https://bernard.com"],"tags":[{"id":642,"name":"green"}],"status":"available"},{"id":293,"category":{"id":505,"name":"Lane"},"name":"Petrushka","photoUrls":["http://percival.biz"],"tags":[{"id":677,"name":"white"}],"status":"available"},{"id":959,"category":{"id":545,"name":"Granville"},"name":"Petrushka","photoUrls":["http://eden.net"],"tags":[{"id":144,"name":"mint green"}],"status":"available"},{"id":9223372036854251714,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":1342076,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":255108,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":966667,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":1297461,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":541034,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":1870860,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":88648,"category":{"id":1,"name":"???? ??? ??????? tierische Güte  s?b?nni minnu t? sariya k?n?"},"name":"? d\n?/? m?","photoUrls":[" ?5X?\\w??:?`3c=L?6 ?P2wE ??????? ??@p??k? k?Y?fS??"],"tags":[{"id":1,"name":"string1"}],"status":"available"},{"id":1143319,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":381226,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":978624,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":1686021,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":1422600,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":770,"category":{"id":1,"name":"Animal"},"name":"dog","photoUrls":["string"],"tags":[{"id":1,"name":"dogs"}],"status":"available"},{"id":151,"category":{"id":1,"name":"Animal"},"name":"dog","photoUrls":["string"],"tags":[{"id":1,"name":"dogs"}],"status":"available"},{"id":250989,"category":{"id":0,"name":"string"},"name":"Martik","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":54742,"category":{"id":1,"name":"???? ??? ??????? tierische Güte  s?b?nni minnu t? sariya k?n?"},"name":"{?1? t??E?","photoUrls":["U????5%?:?<MN*Gk5?SQ? ?wZLO8\\?????n??f?%`9<|z=?p% "],"tags":[{"id":1,"name":"string1"}],"status":"available"},{"id":89091110217,"category":{"id":1,"name":"categoryname"},"name":"{?1? t??E?","photoUrls":["U????5%?:?<MN*Gk5?SQ? ?wZLO8\\?????n??f?%`9<|z=?p% "],"tags":[{"id":1,"name":"string1"}],"status":"available"},{"id":171789,"category":{"id":0,"name":"string"},"name":"MartinEvard","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":1257939,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":1838854,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":3410,"category":{"id":344,"name":"Msvinka"},"name":"Rigic","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":1715267,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":1048860,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":1327582,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":1224985,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":1667136,"category":{"id":1,"name":"category"},"name":"????","photoUrls":["https://example.com"],"tags":[{"id":2,"name":"tags"}],"status":"available"},{"id":260803,"name":"Bars","photoUrls":[],"tags":[],"status":"available"},{"id":2509891,"category":{"id":123,"name":"test"},"name":"Basik","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":737373,"category":{"id":37,"name":"bear"},"name":"dog","photoUrls":["string"],"tags":[{"id":37,"name":"bear"}],"status":"available"},{"id":2648,"category":{"id":0,"name":"string"},"name":"?????","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":260805,"category":{"id":1,"name":"Kitty"},"name":"Roxie","photoUrls":["https://images.tokopedia.net/blog-tokopedia-com/uploads/2021/06/1..jpg"],"tags":[{"id":1,"name":"Santa Clarita"}],"status":"available"},{"id":100500,"category":{"id":1,"name":"cat"},"name":"Pirozhok","photoUrls":["string"],"tags":[{"id":1,"name":"cute"}],"status":"available"},{"id":2,"category":{"id":0,"name":"dog"},"name":"Tom","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":2356,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":121212,"category":{"id":0,"name":"birdie"},"name":"cikcik","photoUrls":["string"],"tags":[{"id":0,"name":"cute"}],"status":"available"},{"id":990522,"category":{"id":0,"name":"Tina"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":9223372036854299921,"category":{"id":0,"name":"string"},"name":"leo","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":1123123,"category":{"id":1123123,"name":"name"},"name":"name","photoUrls":["name"],"tags":[{"id":1123123,"name":"name"}],"status":"available"},{"id":1123123511821,"category":{"id":1123123511821,"name":"name"},"name":"name","photoUrls":["name"],"tags":[{"id":1123123511821,"name":"name"}],"status":"available"},{"id":11231230,"category":{"id":11231230,"name":"name"},"name":"name","photoUrls":["name"],"tags":[{"id":11231230,"name":"name"}],"status":"available"},{"id":964,"category":{"id":7,"name":"Animal"},"name":"pelucas","photoUrls":["https://petstore.swagger.io/v2/pet/964/uploadImage"],"tags":[{"id":4,"name":"perro"}],"status":"available"},{"id":9906,"category":{"id":0,"name":"Kedai Ku"},"name":"Postman Pet UI","photoUrls":["string"],"tags":[{"id":1,"name":"blue"},{"id":2,"name":"white"}],"status":"available"},{"id":747,"category":{"id":452,"name":"cat"},"name":"Bax","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":385,"category":{"id":455,"name":"cats"},"name":"Baxy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":999999999,"category":{"id":0,"name":"string"},"name":"doggie-doggie0","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":2019,"category":{"id":0,"name":"dog"},"name":"?????","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":2520,"name":"Suwini_1049_updated","photoUrls":[],"tags":[],"status":"available"},{"id":1234321,"category":{"id":0,"name":"Cat"},"name":"Pamuk","photoUrls":["string"],"tags":[{"id":0,"name":"My cute cat"}],"status":"available"},{"id":42181115,"category":{"id":8557341,"name":"ut nisi"},"name":"doggie","photoUrls":["fugiat cillum","cillum"],"tags":[{"id":67927893,"name":"et Excepteur ad"},{"id":-13431872,"name":"sint ut"}],"status":"available"},{"id":20083319,"category":{"id":62517053,"name":"non anim quis"},"name":"doggie","photoUrls":["enim Ut","ad "],"tags":[{"id":-59403361,"name":"nulla ad"},{"id":-56161569,"name":"ullamco ex"}],"status":"available"},{"id":102036,"category":{"id":0,"name":"string"},"name":"Riggz","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":102037,"category":{"id":0,"name":"string"},"name":"Riggzi","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":102038,"category":{"id":0,"name":"string"},"name":"Riggzbi","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":555,"category":{"id":1,"name":"cats"},"name":"Gerardo","photoUrls":["https://t4.ftcdn.net/jpg/02/66/72/41360_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg"],"tags":[{"id":1,"name":"Sunday"}],"status":"available"},{"id":9223372036854611903,"category":{"id":1,"name":"animals"},"name":"Bobik","photoUrls":["https://izhevsk.ru/forums/icons/forum_pictures/011757/11757450.jpg"],"tags":[{"id":2,"name":"dog"}],"status":"available"},{"id":6789,"category":{"id":6789,"name":"doggie"},"name":"rex","photoUrls":["string"],"tags":[{"id":6789,"name":"ogfd"}],"status":"available"},{"id":980523,"category":{"id":0,"name":"string"},"name":"Hoggiee","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":6788,"category":{"id":6788,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":6788,"name":"string"}],"status":"available"},{"id":1234545346,"category":{"id":134325435,"name":"cat"},"name":"Reck","photoUrls":["string"],"tags":[{"id":134335,"name":"string"}],"status":"available"},{"id":107,"category":{"id":299,"name":"Corrina Boehm PhD"},"name":"Ebonie Wunsch","photoUrls":["E:\\01. Black01.jpg","E:\\02. Black02.jpg","E:\\03. Black03.jpg"],"tags":[{"id":331,"name":"Hiram Carroll V"},{"id":348,"name":"Rutha Mertz"},{"id":385,"name":"Dalton Crist"}],"status":"available"},{"id":189,"category":{"id":222,"name":"Numbers Metz"},"name":"Mrs. Rudy Bernhard","photoUrls":["E:\\01. Black01.jpg","E:\\02. Black02.jpg","E:\\03. Black03.jpg"],"tags":[{"id":306,"name":"Derek Heller"},{"id":364,"name":"Greg Cummerata"},{"id":389,"name":"Mr. Page Kilback"}],"status":"available"},{"id":195,"category":{"id":223,"name":"hornet"},"name":"Diamond","photoUrls":["E:\\01. Black01.jpg","E:\\02. Black02.jpg","E:\\03. Black03.jpg"],"tags":[{"id":322,"name":"Tanner Upton DVM"},{"id":349,"name":"Fredda Durgan"},{"id":389,"name":"Antione Willms"}],"status":"available"},{"id":1680800446,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":1680800447,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":1680800448,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":1680800449,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":168080044,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":1680800450,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"},{"id":69745597,"category":{"id":81776001,"name":"anim incididunt"},"name":"doggie","photoUrls":["ut elit","in"],"tags":[{"id":-30941697,"name":"laborum"},{"id":-56138752,"name":"tempor incididunt"}],"status":"available"},{"id":100,"category":{"id":0,"name":"dickey"},"name":"doggie","photoUrls":["string"],"tags":[{"id":100,"name":"bowman"}],"status":"available"},{"id":110,"category":{"id":0,"name":"dickey"},"name":"doggie","photoUrls":["string"],"tags":[{"id":100,"name":"bowman"}],"status":"available"},{"id":99998888777,"category":{"id":99998888777,"name":"Belyk"},"name":"Belyk","photoUrls":["string"],"tags":[{"id":99998888777,"name":"Belyk"}],"status":"available"},{"id":1,"category":{"id":1,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":1,"name":"string"}],"status":"available"}]
+
+19:38:14.645 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature
+12:47:53.436 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+12:47:54.018 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1681037274001
+12:47:54.073 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4
+12:47:55.941 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://petstore.swagger.io/v2/user
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:47:56.256 [main]  DEBUG com.intuit.karate - request:
+2 > POST http://petstore.swagger.io/v2/user
+2 > Host: petstore.swagger.io:443
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:47:56.913 [main]  DEBUG com.intuit.karate - response time in milliseconds: 651
+2 < 405
+2 < Date: Sun, 09 Apr 2023 10:43:09 GMT
+2 < Content-Type: application/xml
+2 < Content-Length: 102
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><type>unknown</type></apiResponse>
+
+12:47:56.978 [main]  ERROR com.intuit.karate - src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:7
+Then status 200
+status code was: 405, expected: 200, response time in milliseconds: 651, url: http://petstore.swagger.io/v2/user, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><type>unknown</type></apiResponse>
+src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:7
+12:47:57.871 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature
+12:48:47.146 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+12:48:47.574 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1681037327568
+12:48:47.617 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4
+12:48:49.044 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://petstore.swagger.io/v2/user
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:48:49.368 [main]  DEBUG com.intuit.karate - request:
+2 > POST http://petstore.swagger.io/v2/user
+2 > Host: petstore.swagger.io:443
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:48:49.966 [main]  DEBUG com.intuit.karate - response time in milliseconds: 594
+2 < 405
+2 < Date: Sun, 09 Apr 2023 10:44:02 GMT
+2 < Content-Type: application/xml
+2 < Content-Length: 102
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><type>unknown</type></apiResponse>
+
+12:48:50.014 [main]  ERROR com.intuit.karate - src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:7
+Then status 200
+status code was: 405, expected: 200, response time in milliseconds: 594, url: http://petstore.swagger.io/v2/user, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><type>unknown</type></apiResponse>
+src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:7
+12:48:50.758 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature
+12:49:00.275 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+12:49:00.692 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1681037340685
+12:49:00.728 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 14
+12:49:02.196 [main]  DEBUG com.intuit.karate - request:
+1 > GET http://petstore.swagger.io/v2/pet/findByStatus
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:49:02.515 [main]  DEBUG com.intuit.karate - request:
+2 > GET http://petstore.swagger.io/v2/pet/findByStatus
+2 > Host: petstore.swagger.io:443
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:49:03.116 [main]  DEBUG com.intuit.karate - response time in milliseconds: 597
+2 < 200
+2 < Date: Sun, 09 Apr 2023 10:44:15 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+[]
+
+12:49:03.828 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature
+12:49:36.510 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+12:49:36.938 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1681037376930
+12:49:36.974 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 14
+12:49:38.433 [main]  DEBUG com.intuit.karate - request:
+1 > GET http://petstore.swagger.io/v2/pet/findByStatus
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:49:38.692 [main]  DEBUG com.intuit.karate - request:
+2 > GET http://petstore.swagger.io/v2/pet/findByStatus
+2 > Host: petstore.swagger.io:443
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:49:39.294 [main]  DEBUG com.intuit.karate - response time in milliseconds: 596
+2 < 200
+2 < Date: Sun, 09 Apr 2023 10:44:51 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+[]
+
+12:49:39.404 [main]  INFO  com.intuit.karate - [print] [
+]
+ 
+12:49:40.052 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature
+12:51:09.966 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+12:51:10.438 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1681037470433
+12:51:10.465 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 14
+12:51:11.911 [main]  DEBUG com.intuit.karate - request:
+1 > GET http://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:51:12.167 [main]  DEBUG com.intuit.karate - request:
+2 > GET http://petstore.swagger.io/v2/pet/findByStatus?status=sold
+2 > Host: petstore.swagger.io:443
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:51:12.748 [main]  DEBUG com.intuit.karate - response time in milliseconds: 578
+2 < 200
+2 < Date: Sun, 09 Apr 2023 10:46:25 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+[{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854606353,"name":"","photoUrls":["[§\uD954\uDD65?\uD8E0\uDF2E\uD976\uDE24A\nø»\u000Fm\f\uDBC1\uDE01¤"],"tags":[],"status":"sold"},{"id":9223372036854606382,"category":{"id":0},"name":"","photoUrls":[],"tags":[{"id":-8421376,"name":""}],"status":"sold"},{"id":121254487,"category":{"id":134325435,"name":"cat"},"name":"Sona","photoUrls":["string"],"tags":[{"id":134335,"name":"string"}],"status":"sold"},{"id":12345,"name":"dog2","photoUrls":["string"],"tags":[],"status":"sold"},{"id":922337203685477590,"category":{"id":2,"name":"dog"},"name":"Chappi dog 78","photoUrls":[],"tags":[],"status":"sold"},{"id":3434,"category":{"id":0,"name":"cat"},"name":"Kotionok","photoUrls":[],"tags":[{"id":0,"name":"cat"}],"status":"sold"}]
+
+12:51:12.867 [main]  INFO  com.intuit.karate - [print] [
+  {
+    "id": 13,
+    "category": {
+      "id": 0,
+      "name": "cats"
+    },
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 9223372036854606353,
+    "name": "",
+    "photoUrls": [
+      "[§?\u0088??A\nø»\u000Fm\f?¤"
+    ],
+    "tags": [
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 9223372036854606382,
+    "category": {
+      "id": 0
+    },
+    "name": "",
+    "photoUrls": [
+    ],
+    "tags": [
+      {
+        "id": -8421376,
+        "name": ""
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 121254487,
+    "category": {
+      "id": 134325435,
+      "name": "cat"
+    },
+    "name": "Sona",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 134335,
+        "name": "string"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 12345,
+    "name": "dog2",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 922337203685477590,
+    "category": {
+      "id": 2,
+      "name": "dog"
+    },
+    "name": "Chappi dog 78",
+    "photoUrls": [
+    ],
+    "tags": [
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 3434,
+    "category": {
+      "id": 0,
+      "name": "cat"
+    },
+    "name": "Kotionok",
+    "photoUrls": [
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "cat"
+      }
+    ],
+    "status": "sold"
+  }
+]
+ 
+12:51:13.574 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature
+12:53:27.163 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+12:53:27.619 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1681037607614
+12:53:27.680 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 9
+12:53:29.223 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 249 milliseconds for url: /user
+12:53:29.227 [main]  ERROR com.intuit.karate - src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:11
+When method POST
+http call failed after 249 milliseconds for url: /user
+org.apache.http.ProtocolException: Target host is not specified
+src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:11
+12:53:30.092 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature
+12:54:49.644 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+12:54:50.167 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1681037690157
+12:54:50.192 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 19
+12:54:51.590 [main]  ERROR com.intuit.karate - org.apache.http.ProtocolException: Target host is not specified, http call failed after 250 milliseconds for url: /pet/findByStatus?status=sold
+12:54:51.597 [main]  ERROR com.intuit.karate - src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:21
+When method GET
+http call failed after 250 milliseconds for url: /pet/findByStatus?status=sold
+org.apache.http.ProtocolException: Target host is not specified
+src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:21
+12:54:52.352 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature
+12:55:38.705 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+12:55:39.135 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1681037739130
+12:55:39.165 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 19
+12:55:40.634 [main]  DEBUG com.intuit.karate - request:
+1 > GET http://petstore.swagger.io/v2/pet/findByStatus%3Fstatus=sold
+1 > Accept: application/json
+1 > Authorization: apikey special-key
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:55:40.890 [main]  DEBUG com.intuit.karate - request:
+2 > GET http://petstore.swagger.io/v2/pet/findByStatus%3Fstatus=sold
+2 > Accept: application/json
+2 > Authorization: apikey special-key
+2 > Host: petstore.swagger.io:443
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:55:41.508 [main]  DEBUG com.intuit.karate - response time in milliseconds: 618
+2 < 404
+2 < Date: Sun, 09 Apr 2023 10:50:54 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"findByStatus?status=sold\""}
+
+12:55:41.553 [main]  ERROR com.intuit.karate - src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:22
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 618, url: http://petstore.swagger.io/v2/pet/findByStatus%3Fstatus=sold, response: 
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"findByStatus?status=sold\""}
+src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:22
+12:55:42.349 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature
+12:57:15.804 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+12:57:16.214 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1681037836214
+12:57:16.264 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 19
+12:57:17.653 [main]  DEBUG com.intuit.karate - request:
+1 > GET http://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Accept: application/json
+1 > Authorization: apikey special-key
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:57:17.970 [main]  DEBUG com.intuit.karate - request:
+2 > GET http://petstore.swagger.io/v2/pet/findByStatus?status=sold
+2 > Accept: application/json
+2 > Authorization: apikey special-key
+2 > Host: petstore.swagger.io:443
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:57:18.559 [main]  DEBUG com.intuit.karate - response time in milliseconds: 589
+2 < 200
+2 < Date: Sun, 09 Apr 2023 10:52:31 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+[{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854606353,"name":"","photoUrls":["[§\uD954\uDD65?\uD8E0\uDF2E\uD976\uDE24A\nø»\u000Fm\f\uDBC1\uDE01¤"],"tags":[],"status":"sold"},{"id":9223372036854606382,"category":{"id":0},"name":"","photoUrls":[],"tags":[{"id":-8421376,"name":""}],"status":"sold"},{"id":121254487,"category":{"id":134325435,"name":"cat"},"name":"Sona","photoUrls":["string"],"tags":[{"id":134335,"name":"string"}],"status":"sold"},{"id":12345,"name":"dog2","photoUrls":["string"],"tags":[],"status":"sold"},{"id":922337203685477590,"category":{"id":2,"name":"dog"},"name":"Chappi dog 78","photoUrls":[],"tags":[],"status":"sold"},{"id":3434,"category":{"id":0,"name":"cat"},"name":"Kotionok","photoUrls":[],"tags":[{"id":0,"name":"cat"}],"status":"sold"}]
+
+12:57:18.686 [main]  INFO  com.intuit.karate - [print] [
+  {
+    "id": 13,
+    "category": {
+      "id": 0,
+      "name": "cats"
+    },
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 9223372036854606353,
+    "name": "",
+    "photoUrls": [
+      "[§?\u0088??A\nø»\u000Fm\f?¤"
+    ],
+    "tags": [
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 9223372036854606382,
+    "category": {
+      "id": 0
+    },
+    "name": "",
+    "photoUrls": [
+    ],
+    "tags": [
+      {
+        "id": -8421376,
+        "name": ""
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 121254487,
+    "category": {
+      "id": 134325435,
+      "name": "cat"
+    },
+    "name": "Sona",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 134335,
+        "name": "string"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 12345,
+    "name": "dog2",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 922337203685477590,
+    "category": {
+      "id": 2,
+      "name": "dog"
+    },
+    "name": "Chappi dog 78",
+    "photoUrls": [
+    ],
+    "tags": [
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 3434,
+    "category": {
+      "id": 0,
+      "name": "cat"
+    },
+    "name": "Kotionok",
+    "photoUrls": [
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "cat"
+      }
+    ],
+    "status": "sold"
+  }
+]
+ 
+12:57:19.387 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature
+12:57:43.687 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+12:57:44.143 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1681037864137
+12:57:44.177 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 9
+12:57:45.737 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://petstore.swagger.io/v2/user
+1 > Accept: application/json
+1 > Authorization: apikey special-key
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:57:45.985 [main]  DEBUG com.intuit.karate - request:
+2 > POST http://petstore.swagger.io/v2/user
+2 > Accept: application/json
+2 > Authorization: apikey special-key
+2 > Host: petstore.swagger.io:443
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:57:46.609 [main]  DEBUG com.intuit.karate - response time in milliseconds: 621
+2 < 405
+2 < Date: Sun, 09 Apr 2023 10:52:59 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+{"code":405,"type":"unknown"}
+
+12:57:46.652 [main]  ERROR com.intuit.karate - src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:12
+Then status 200
+status code was: 405, expected: 200, response time in milliseconds: 621, url: http://petstore.swagger.io/v2/user, response: 
+{"code":405,"type":"unknown"}
+src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:12
+12:57:47.461 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature
+12:58:28.530 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+12:58:28.982 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1681037908982
+12:58:29.016 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 9
+12:58:30.404 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://petstore.swagger.io/v2/user
+1 > Accept: application/json
+1 > Authorization: api_key special-key
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:58:30.704 [main]  DEBUG com.intuit.karate - request:
+2 > POST http://petstore.swagger.io/v2/user
+2 > Accept: application/json
+2 > Authorization: api_key special-key
+2 > Host: petstore.swagger.io:443
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:58:31.338 [main]  DEBUG com.intuit.karate - response time in milliseconds: 634
+2 < 405
+2 < Date: Sun, 09 Apr 2023 10:53:43 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+{"code":405,"type":"unknown"}
+
+12:58:31.387 [main]  ERROR com.intuit.karate - src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:12
+Then status 200
+status code was: 405, expected: 200, response time in milliseconds: 634, url: http://petstore.swagger.io/v2/user, response: 
+{"code":405,"type":"unknown"}
+src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:12
+12:58:32.140 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature
+12:58:53.398 [main]  INFO  com.intuit.karate - Karate version: 1.4.0-SNAPSHOT
+12:58:53.833 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1681037933827
+12:58:53.865 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 9
+12:58:55.255 [main]  DEBUG com.intuit.karate - request:
+1 > POST http://petstore.swagger.io/v2/user
+1 > Accept: application/json
+1 > api_key: special-key
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:58:55.516 [main]  DEBUG com.intuit.karate - request:
+2 > POST http://petstore.swagger.io/v2/user
+2 > Accept: application/json
+2 > api_key: special-key
+2 > Host: petstore.swagger.io:443
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+2 > Accept-Encoding: gzip,deflate
+
+
+12:58:57.086 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1570
+2 < 405
+2 < Date: Sun, 09 Apr 2023 10:54:09 GMT
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Access-Control-Allow-Origin: *
+2 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2 < Server: Jetty(9.2.9.v20150224)
+{"code":405,"type":"unknown"}
+
+12:58:57.132 [main]  ERROR com.intuit.karate - src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:12
+Then status 200
+status code was: 405, expected: 200, response time in milliseconds: 1570, url: http://petstore.swagger.io/v2/user, response: 
+{"code":405,"type":"unknown"}
+src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature:12
+12:58:57.888 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/InditexTechTest/tests/ejercicio3_APIAutomation.feature
