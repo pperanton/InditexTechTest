@@ -2,11 +2,11 @@ Title: API endpoint not returning expected result
 
 Description:
 Given url http://petstore.swagger.io/v2/pet/findByStatus?status=sold
-When user open it on a webbrowser
-Then the error 'error on line 2 at column 3: PCDATA invalid Char value 15'
-And the data is not displayed
+When user runs it with method GET
+Then we get a 405
+And if opened on webbrowser we can not access the data
 
-Evidence: *See proof.jpg and 
+Evidence: *See proof.jpg
 
 Priority: Critical
 Impact: High
